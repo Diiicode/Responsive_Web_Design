@@ -20,13 +20,13 @@ The Responsive Web Design course teaches the basics of HTML and CSS, along with 
 
 These are the final certification projects required to earn the Responsive Web Design certificate. Each project follows specific user stories and guidelines provided by freeCodeCamp.
 
-| Project | Description | Live Demo |
-|--------|-------------|------------|
-| 1. **Survey Form** | A form with input fields, labels, and validation. | [Live](#) |
-| 2. **Tribute Page** | A tribute webpage dedicated to a historical figure or person. | [Live](#) |
-| 3. **Technical Documentation Page** | A documentation-style page with navigation and code examples. | [Live](#) |
-| 4. **Product Landing Page** | A landing page with a call-to-action, media, and layout. | [Live](#) |
-| 5. **Personal Portfolio Page** | A portfolio website showcasing your work. | [Live](#) |
+| Project | Description | 
+|--------|-------------|
+| 1. **Survey Form** | A form with input fields, labels, and validation. |
+| 2. **Tribute Page** | A tribute webpage dedicated to a historical figure or person. |
+| 3. **Technical Documentation Page** | A documentation-style page with navigation and code examples. |
+| 4. **Product Landing Page** | A landing page with a call-to-action, media, and layout. |
+| 5. **Personal Portfolio Page** | A portfolio website showcasing your work. |
 
 > 💡 Each project is built with pure HTML and CSS only, without any JavaScript.
 
