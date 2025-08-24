@@ -38,9 +38,6 @@ These are the final certification projects required to earn the Responsive Web D
    ```bash
    git clone https://github.com/yourusername/responsive-web-design-fcc.git
 
-
-   ## 📩 Contact
-
 **Diiicode** (Di Code) • *he/him*  
 🕹️ I'm a coding and gaming enthusiast. Let's build something together.  
 📍 Lisbon  
