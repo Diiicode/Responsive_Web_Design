@@ -1,0 +1,80 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: #0a0a23;
+  color: #f5f6f7;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 16px 56px;
+}
+
+#title {
+  text-align: center;
+  margin: 12px 0 6px;
+}
+
+#description {
+  text-align: center;
+  margin: 0 0 24px;
+  color: #cbd5e1;
+}
+
+#survey-form {
+  background: #11122c;
+  border: 1px solid #24264a;
+  border-radius: 10px;
+  padding: 20px;
+  display: grid;
+  gap: 14px;
+}
+
+label { font-weight: 600; }
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #3a3d66;
+  background: #0f1030;
+  color: #f5f6f7;
+}
+
+.group {
+  border: 1px solid #24264a;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.group label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 18px;
+  font-weight: 500;
+}
+
+#submit {
+  background: #fdb347;
+  color: #0a0a23;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#submit:hover { filter: brightness(0.95); }
+
+/* Keep inputs readable on small screens */
+@media (max-width: 520px) {
+  #survey-form { padding: 16px; }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Developer Survey</h1>
+      <p id="description">Quick form to gather feedback from developers.</p>
+
+      <form id="survey-form">
+        <!-- Name -->
+        <label id="name-label" for="name">Name</label>
+        <input id="name" type="text" placeholder="Enter your name" required />
+
+        <!-- Email -->
+        <label id="email-label" for="email">Email</label>
+        <input id="email" type="email" placeholder="Enter your email" required />
+
+        <!-- Number -->
+        <label id="number-label" for="number">Age</label>
+        <input
+          id="number"
+          type="number"
+          min="10"
+          max="120"
+          placeholder="Enter your age (10–120)"
+        />
+
+        <!-- Select -->
+        <label for="dropdown">Current role</label>
+        <select id="dropdown">
+          <option value="student">Student</option>
+          <option value="developer">Developer</option>
+          <option value="other">Other</option>
+        </select>
+
+        <!-- Radio group -->
+        <fieldset class="group">
+          <legend>Experience level</legend>
+          <label>
+            <input type="radio" name="experience" value="beginner" />
+            Beginner
+          </label>
+          <label>
+            <input type="radio" name="experience" value="advanced" />
+            Advanced
+          </label>
+        </fieldset>
+
+        <!-- Checkboxes -->
+        <fieldset class="group">
+          <legend>Interests (choose any)</legend>
+          <label>
+            <input type="checkbox" value="web" />
+            Web
+          </label>
+          <label>
+            <input type="checkbox" value="backend" />
+            Backend
+          </label>
+          <label>
+            <input type="checkbox" value="gaming" />
+            Gaming
+          </label>
+        </fieldset>
+
+        <!-- Textarea -->
+        <label for="comments">Comments</label>
+        <textarea id="comments" rows="4" placeholder="Share anything else..."></textarea>
+
+        <!-- Submit -->
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>

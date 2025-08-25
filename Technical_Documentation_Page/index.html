@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Technical Documentation</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+      <a class="nav-link" href="#CSS_Fundamentals">CSS Fundamentals</a>
+      <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+      <a class="nav-link" href="#Accessibility">Accessibility</a>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>This technical documentation demonstrates a simple layout with a fixed left sidebar and content sections.</p>
+        <p>Each section begins with a <code>&lt;header&gt;</code> and has an <code>id</code> matching the header text (spaces become underscores).</p>
+        <p>Use semantic HTML and small, focused topics per section to help readers scan quickly.</p>
+        <ul>
+          <li>Consistent structure</li>
+          <li>Clear navigation</li>
+          <li>Responsive behavior</li>
+        </ul>
+        <p>Inline code like <code>margin: 0;</code> and <code>display: flex;</code> is used throughout.</p>
+      </section>
+
+      <section class="main-section" id="HTML_Basics">
+        <header>HTML Basics</header>
+        <p>HTML provides structure using elements such as <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;section&gt;</code>.</p>
+        <p>Give meaningful <code>id</code> values to enable in-page navigation.</p>
+        <p>Use lists when presenting grouped items:</p>
+        <ul>
+          <li><code>&lt;ul&gt;</code> unordered lists</li>
+          <li><code>&lt;ol&gt;</code> ordered lists</li>
+          <li><code>&lt;li&gt;</code> list items</li>
+        </ul>
+        <p>Links can point to sections like <code>&lt;a href="#HTML_Basics"&gt;</code>.</p>
+      </section>
+
+      <section class="main-section" id="CSS_Fundamentals">
+        <header>CSS Fundamentals</header>
+        <p>CSS controls presentation. Common properties include <code>color</code>, <code>background</code>, and <code>padding</code>.</p>
+        <p>Layouts often use <code>display: grid;</code> or <code>display: flex;</code>.</p>
+        <p>Example rule:</p>
+        <p><code>main { max-width: 900px; margin: 0 auto; }</code></p>
+        <p>Box model: <code>box-sizing: border-box;</code> simplifies sizing.</p>
+      </section>
+
+      <section class="main-section" id="JavaScript_and_Java">
+        <header>JavaScript and Java</header>
+        <p>JavaScript is a dynamic language for the web; Java is a statically typed general-purpose language.</p>
+        <p>JS example:</p>
+        <p><code>document.querySelectorAll('.nav-link').forEach(a =&gt; a.tabIndex = 0);</code></p>
+        <p>Use JS sparingly to enhance UX and keep content accessible.</p>
+        <ul>
+          <li>DOM APIs</li>
+          <li>Events</li>
+          <li>Modules</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Accessibility">
+        <header>Accessibility</header>
+        <p>Ensure content is usable with keyboards and screen readers.</p>
+        <p>Use semantic elements and labels. Example:</p>
+        <p><code>&lt;nav aria-label="Primary"&gt;</code></p>
+        <p>Maintain contrast and prov
